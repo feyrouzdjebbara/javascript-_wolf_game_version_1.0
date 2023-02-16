@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded',function(){
             this.maxParticles=50;
             this.time=0;
             this.maxTime=60000;
-            this.winingScore=30;
+            this.winingScore=40;
             this.player.currentState=this.player.states[0];
            this.player.currentState.enter();
            this.gameOver=false;
