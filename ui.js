@@ -15,7 +15,7 @@ export class Ui{
         context.textAlign='left';
         context.FillStyle=this.game.fontColor;
         //score
-        context.fillText('Score: '+this.game.score+'/20 ',20,50);
+        context.fillText('Score: '+this.game.score+'/30 ',20,50);
         //timer
         context.font="25px Creepster";
         context.fillText('Time: '+(this.game.time* 0.001).toFixed(0)+'/60',20,80);
